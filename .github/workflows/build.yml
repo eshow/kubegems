@@ -19,7 +19,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: registry.cn-hangzhou.aliyuncs.com
+  IMAGE_NAME: ${{ github.repository }}
   GONOPROXY: kubegems.io
 
   
